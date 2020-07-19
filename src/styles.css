@@ -18,25 +18,29 @@ body {
 }
 
 .country {
-  position: relative;
   list-style: none;
   width: 40vw;
 }
 
+.overlay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country__info {
+  margin-right: 30px;
+}
+
 .country__name {
-  margin-left: 150px;
+  margin-left: 50%;
   font-size: 38px;
 }
 
 .country__languages {
   list-style: none;
+  padding: 0;
 }
 
 .title {
   font-weight: 600;
-}
-.country__img {
-  position: absolute;
-  top: 30%;
-  right: 20%;
 }

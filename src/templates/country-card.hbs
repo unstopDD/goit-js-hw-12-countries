@@ -2,7 +2,9 @@
 
   <h2 class="country__name">{{name}}</h2>
   
-    <p class="country__capital"><span class="title">Capital:</span> {{capital}}</p>
+    <div class="overlay">
+      <div class="country__info">
+        <p class="country__capital"><span class="title">Capital:</span> {{capital}}</p>
     <p class="country__population"><span class="title">Population:</span> {{population}}</p>
    
      <ul class="country__languages" > 
@@ -12,10 +14,11 @@
      </li>
      {{/each}}
      </ul>
+      </div>
     
     <img class="country__img" src="{{flag}}" alt="Flag" width="300">
+    </div>
   
 
 
 {{/each}}
-<ul class="country js-country"></ul>
